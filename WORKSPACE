@@ -4,8 +4,9 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 # "Unable to load contents of file list: 'iOS App.xcodeproj/rules_xcodeproj/modulemaps.fixed.xcfilelist'
 http_archive(
     name = "com_github_buildbuddy_io_rules_xcodeproj",
-    sha256 = "e82b24c55e479905383d1567d7617a14d1995638bf78b468218f7a44c176ce15",
-    url = "https://github.com/buildbuddy-io/rules_xcodeproj/archive/8449a6e913633a4a15d7819a6a614ca2c17e4338.tar.gz",
+    sha256 = "f8ab5d6d57fc87a03cc297b6417a2c75c280a3abdf17a05b27a3dcab4c20d787",
+    strip_prefix = "rules_xcodeproj-55142f56245dd411c560862306e77379ac71bbd8",
+    url = "https://github.com/buildbuddy-io/rules_xcodeproj/archive/55142f56245dd411c560862306e77379ac71bbd8.tar.gz",
 )
 
 # This works when rules_xcodeproj is checked out next to this example
